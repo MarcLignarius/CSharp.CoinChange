@@ -43,16 +43,16 @@ namespace CoinCombinations.Tests
       Assert.AreEqual(1, change.GetNickels());
     }
 
+    [TestMethod]
+    public void CheckPennies_CheckForPennies_NumberOfPennies()
+    {
+      //Arrange
+      ChangeMake change = new ChangeMake(1);
+      //Act
+
+      //Arrange
+      Assert.AreEqual(1, change.GetPennies());
+    }
+
   }
 }
-
-// [TestMethod]
-// public void CheckPennies_CheckForPennies_NumberOfPennies()
-// {
-//   //Arrange
-//   ChangeMake change = new ChangeMake(1);
-//   //Act
-//
-//   //Arrange
-//   Assert.AreEqual(1, change.GetPennies());
-// }

@@ -48,6 +48,11 @@ namespace CoinCombinations.Models
       return Nickels;
     }
 
+    public int GetPennies()
+    {
+      return Pennies;
+    }
+
   }
 }
 
@@ -55,9 +60,4 @@ namespace CoinCombinations.Models
 // {
 //   money -= 1;
 //   Pennies++;
-// }
-
-// public int GetPennies()
-// {
-//   return Pennies;
 // }
