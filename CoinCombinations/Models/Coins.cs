@@ -26,6 +26,11 @@ namespace CoinCombinations.Models
         money -= 10;
         Dimes++;
       }
+      while(money >=5)
+      {
+        money -= 5;
+        Nickels++;
+      }
     }
 
     public int GetQuarters()
@@ -46,11 +51,6 @@ namespace CoinCombinations.Models
   }
 }
 
-// while(money >=5)
-// {
-//   money -= 5;
-//   Nickels++;
-// }
 // while(money >=1)
 // {
 //   money -= 1;
