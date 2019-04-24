@@ -21,5 +21,16 @@ namespace CoinCombinations.Tests
       Assert.AreEqual(1, change.GetQuarters());
     }
 
+    [TestMethod]
+    public void CheckDimes_CheckForDimes_NumberOfDimes()
+    {
+      //Arrange
+      ChangeMake change = new ChangeMake(10);
+      //Act
+
+      //Arrange
+      Assert.AreEqual(1, change.GetDimes());
+    }
+
   }
 }
