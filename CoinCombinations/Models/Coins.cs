@@ -38,5 +38,26 @@ namespace CoinCombinations.Models
       return Dimes;
     }
 
+    public int GetNickels()
+    {
+      return Nickels;
+    }
+
   }
 }
+
+// while(money >=5)
+// {
+//   money -= 5;
+//   Nickels++;
+// }
+// while(money >=1)
+// {
+//   money -= 1;
+//   Pennies++;
+// }
+
+// public int GetPennies()
+// {
+//   return Pennies;
+// }
