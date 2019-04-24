@@ -1,0 +1,4 @@
+/Users/Guest/Desktop/coincombos/CoinCombinations.Tests/obj/Debug/netcoreapp1.1/CoinCombinations.Tests.csprojAssemblyReference.cache
+/Users/Guest/Desktop/coincombos/CoinCombinations.Tests/obj/Debug/netcoreapp1.1/CoinCombinations.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/coincombos/CoinCombinations.Tests/obj/Debug/netcoreapp1.1/CoinCombinations.Tests.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/coincombos/CoinCombinations.Tests/obj/Debug/netcoreapp1.1/CoinCombinations.Tests.AssemblyInfo.cs
