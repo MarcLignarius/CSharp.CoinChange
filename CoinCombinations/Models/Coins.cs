@@ -12,10 +12,15 @@ namespace CoinCombinations.Models
 
     public ChangeMake(int money)
     {
-      Quarters = money;
-      Dimes = 100;
-      Nickels = 100;
-      Pennies = 100;
+      Quarters = 0;
+      Dimes = 0;
+      Nickels = 0;
+      Pennies = 0;
+      while(money >= 25)
+      {
+        money -= 25;
+        Quarters++;
+      }
     }
 
     public int GetQuarters()

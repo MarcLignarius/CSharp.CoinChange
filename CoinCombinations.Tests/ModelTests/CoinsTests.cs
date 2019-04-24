@@ -14,7 +14,7 @@ namespace CoinCombinations.Tests
     public void CheckQuarters_CheckForQuarters_NumberOfQuarters()
     {
       //Arrange
-      ChangeMake change = new ChangeMake(45);
+      ChangeMake change = new ChangeMake(25);
       //Act
 
       //Arrange
