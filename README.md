@@ -21,8 +21,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Program checks for maximum amount of dimes in customer change due | Change: 10c | 1 Dime |
 | Program checks for maximum amount of nickels in customer change due | Change: 5c | 1 Nickel |
 | Program checks for maximum amount of pennies in customer change due | Change: 1c | 1 Penny |
-| Program checks for smallest amount of coins in customer change due | Change: 36c | 1 Quarter, 1 Dime, 1 Nickel, 1 Penny |
-| Lorem | x | true/false |
+| Program checks for smallest amount of coins in customer change due | 69 | Quarters: 2, Dimes: 1, Nickels: 1, Pennies: 4 |
 
 ## Known Bugs
 
