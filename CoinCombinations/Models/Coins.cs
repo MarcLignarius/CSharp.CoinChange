@@ -21,11 +21,11 @@ namespace CoinCombinations.Models
         money -= 25;
         Quarters++;
       }
-      // while(money >=10)
-      // {
-      //   money -= 10;
-      //   Dimes++;
-      // }
+      while(money >=10)
+      {
+        money -= 10;
+        Dimes++;
+      }
     }
 
     public int GetQuarters()
