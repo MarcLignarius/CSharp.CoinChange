@@ -58,5 +58,10 @@ namespace CoinCombinations.Models
       return Pennies;
     }
 
+    public string GiveChange()
+    {
+      return "Here's your change.";
+    }
+
   }
 }

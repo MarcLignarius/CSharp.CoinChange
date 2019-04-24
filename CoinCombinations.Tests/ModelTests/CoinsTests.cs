@@ -54,5 +54,16 @@ namespace CoinCombinations.Tests
       Assert.AreEqual(1, change.GetPennies());
     }
 
+    [TestMethod]
+    public void GiveChange_Coins_NumberOfEach()
+    {
+      //Arrange
+      ChangeMake change = new ChangeMake(41);
+      //Act
+
+      //Arrange
+      Assert.AreEqual("1 Quarter, 1 Dime, 1 Nickel, 1 Penny", change.GiveChange());
+    }
+
   }
 }
