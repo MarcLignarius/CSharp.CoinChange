@@ -62,7 +62,7 @@ namespace CoinCombinations.Tests
       //Act
 
       //Arrange
-      Assert.AreEqual("1 Quarter, 1 Dime, 1 Nickel, 1 Penny", change.GiveChange());
+      Assert.AreEqual("Quarters: 1, Dimes: 1, Nickels: 1, Pennies: 1", change.GiveChange());
     }
 
   }
