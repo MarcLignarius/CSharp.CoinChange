@@ -1,17 +1,19 @@
-# _{Application Name}_
+# _Coin Combinations_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This program lists out the amount of quarters, dimes, nickels and pennies necessary to give a certain amount of change. 04/24/2019_
 
-#### By _**Marc Davies**_
+#### By _**Marc Davies, Jared Farkas**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program lists out the amount of quarters, dimes, nickels and pennies necessary to give a certain amount of change._
 
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _In your terminal, $mono ProjectName.exe_
+* _In your terminal, navigate to csharpcoins/CoinCombinations/Models_
+* _$mcs Program.cs Coins.cs_
+* _$mono Program.exe_
 
 ## Specs
 
@@ -39,4 +41,4 @@ _C#_
 
 *This software is licensed under the GPL license.*
 
-Copyright (c) 2019 **_Marc Davies_**
+Copyright (c) 2019 **_Marc Davies, Jared Farkas_**

@@ -60,7 +60,7 @@ namespace CoinCombinations.Models
 
     public string GiveChange()
     {
-      return "Quarters: " + Quarters + ", Dimes: " + Dimes + ", Nickels: " + Nickels + ", Pennies: " + Pennies;
+      return "Here's your change! Quarters: " + Quarters + ", Dimes: " + Dimes + ", Nickels: " + Nickels + ", Pennies: " + Pennies;
     }
 
   }

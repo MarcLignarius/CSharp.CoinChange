@@ -9,7 +9,7 @@ namespace CoinCombinations.Models
     public static void Main()
     {
 
-      Console.WriteLine("How many cents do you have?");
+      Console.WriteLine("How much do I owe you?");
       int stringUserInput = int.Parse(Console.ReadLine());
       ChangeMake newChangeMake = new ChangeMake(stringUserInput);
       Console.WriteLine(newChangeMake.GiveChange());
